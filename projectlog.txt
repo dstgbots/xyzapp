@@ -1,0 +1,123 @@
+PROJECT LOG - GETBANDISH APP  
+Student: K Kousthubh Bhat  
+Course: BCA 2nd Year  
+Duration: April 27 - June 15, 2025
+
+==============================================  
+
+April 27, 2024 (Day 1)
+I began considering developing a classical music application after observing some issues. I used Python with Tkinter because we learned it recently in class. I invested time researching and planning the general outline.
+
+April 29, 2024 (Day 3)
+Today, I spent working on the welcome screen. I managed to make the loading animation work using threading, which was somewhat difficult at first. The welcome message is shown for 3 seconds and automatically switches to the main screen.
+
+May 1, 2024 (Day 5)
+I created the primary header with a brown color scheme. I included a hamburger menu icon and a search icon in Unicode characters. Getting the positioning took time, but now it looks nice.
+
+May 3, 2024 (Day 7)
+I also added the scrollable list of raaga's, which was a problem to implement. I also had trouble making the Scrollbar and Canvas play nicely with each other, but I got it to work. At this point, only "Abhogi / Abhogi Kanada" is clickable; the rest display a coming soon message.
+
+May 5, 2024 (Day 9)
+I created the back navigation in bandish list screen. I inserted 6 bandish entries and their details such as raag, taal, and type. Navigation between screens is smooth now.
+
+May 7, 2024 (Day 11)
+I designed the detailed view for every bandish, showing the entire lyrics. I employed a Text widget with scrollbar to accommodate lengthy content. I colored the lyrics red to resemble a traditional appearance.
+
+May 9, 2024 (Day 13)
+I implemented mouse wheel scrolling to every screen and button hover effects. I made the window size static 400x700 and non-resizable. The app is much more responsive now.
+
+May 11, 2024 (Day 15)
+I refactored the code and included proper comments. I reorganized the functions more efficiently and eliminated debug statements. The code now appears more professional.
+
+May 13, 2024 (Day 17)
+I prepared a README file and a requirements.txt for documentation purposes. I also prepared a batch file for Windows users so that they can easily run the app. I included usage information and future development plans.  
+
+May 15, 2024 (Day 19)
+I exhaustedively tested every feature and navigation flow. I corrected small bugs and verified data display correctness. Everything is fine now.
+
+May 17, 2024 (Day 21)
+I created the final presentation and noted all the features. The app has welcome screen, raaga list, bandish list, and detailed view. It is ready for submission, but I wish to implement more features.
+
+May 19, 2024 (Day 23)
+I began incorporating more bandish data for the Abhogi raaga. I also started looking into incorporating search functionality. The search bar exists, but it is not working yet.
+
+May 21, 2024 (Day 25)
+I spent time refining the UI colors and fonts. I altered some button themes and tidied up spacing. The app now seems more refined than the previous version.
+
+May 23, 2024 (Day 27)
+I attempted to implement an audio playback feature but it is too intricate at this point. I am going to finish the existing features well instead. I might include audio in the next version.
+
+May 25, 2024 (Day 29)
+I corrected some of the scrolling problems that were happening on various screen sizes. I also adjusted the timing of the loading animation. Those little touches matter.
+
+May 27, 2024 (Day 31)
+I inserted additional raaga names into the list for demonstration purposes. Abhogi is the only one that works right now, but the list now appears full. Users get to see what is on its way in upcoming updates.
+
+May 29, 2024 (Day 33)
+I improved code performance and minimized memory usage. The application loads quicker now, and scrolling is better. I also resolved some minor text formatting problems.
+
+May 31, 2024 (Day 35)
+I made project presentation slides and got ready for the demo. I demonstrated the app to a few classmates, and they provided positive feedback. They appreciated the classical music theme.
+
+June 2, 2024 (Day 37)
+I began implementing error handling for edge cases. I have added try-catch blocks where necessary. I made the app more stable, and it no longer crashes with unexpected input.
+
+June 4, 2024 (Day 39)
+I enhanced the welcome screen animation and gave it a more professional appearance. I also tweaked the color scheme slightly to improve text readability. Minor adjustments like these are crucial.
+
+June 6, 2024 (Day 41)
+I made the app more responsive and user-friendly. I implemented keyboard navigation shortcuts. The arrow keys and enter can now be used by users for simple navigation.
+
+June 8, 2024 (Day 43)
+I resolved compatibility problems with various versions of Python. The application now runs perfectly on Python 3.6 and later. I also revised the documentation to match accordingly.
+
+June 10, 2024 (Day 45)
+I included more in-depth comments in the code for clear understanding. I also made a backup of the project. The code is properly documented now for future use.
+
+June 12, 2024 (Day 47)
+I have tested the app on various Windows and resolutions. I have slightly tweaked it to look the same everywhere. It runs efficiently on different systems.
+
+June 14, 2024 (Day 49)
+I performed a last code review and cleanup. I eliminated unused imports and variables. The app is in final form, all features in working order and the code optimized.
+
+June 15, 2024 (Day 50)
+I finished final testing and prepared the project submission package. The app is ready, all documentation and installation files. I am happy with the end result.
+
+June 17, 2024 (Day 52)
+Switched from Tkinter to Kivy for better mobile development. Tkinter was too basic and couldn't create proper Android apps. Started learning Kivy framework for cross-platform development.
+
+June 19, 2024 (Day 54)
+Completely redesigned app using KivyMD for professional Material Design UI. Old Kivy interface looked unprofessional with unclear text and bad styling. New design has modern cards, proper colors, and clean typography.
+
+June 21, 2024 (Day 56)
+Fixed Python command issues by using 'py' instead of 'python' in all scripts. Created proper Android build system with buildozer. App now has professional UI and can build real APK files for mobile devices.
+
+June 15, 2024
+Phew - massive improvements today. Finally got KivyMD working right with proper colors and styles. App is now professional looking! It's amazing how much better Material Design makes everything look. All screen transitions are smooth now. Had to fix scaling issues but worth it.
+
+June 17, 2024
+Implemented SQLite database for storing all bandish data and raagas. This is a huge improvement - no more hardcoded data! Created database.py with DatabaseManager class handling all DB operations. Initial setup creates tables for raagas and bandish with sample data. Finally becoming a "real" app.
+
+June 18, 2024
+Added db_admin.py tool for database management - now we can easily add new raagas and bandish compositions. Sir liked the admin tool a lot! It lets him export data and view statistics. Also added navigation drawer with menu items (Create Concert, Help, Settings, About Us, Admin Control) that slides from left when hamburger icon is clicked.
+
+June 19, 2024
+Implemented comprehensive wishlist system for raagas and bandish! Users can now click heart icons to save favorites. Added heart icon to each raaga and bandish card for toggling favorites. Top right of screen has a wishlist mode toggle that filters to show only favorites. All wishlist data is stored in SQLite database so it persists between sessions. Professor said it's a really professional feature!
+
+==============================================
+
+FINAL FEATURES:  
+-Welcome screen with loading animation  
+- Scrollable raaga list with 15 entries  
+-Working Abhogi raaga with 6 bandish  
+- Detailed lyrics view with formatting  
+- Smooth navigation and user experience  
+-Professional UI with classical theme  
+
+TOTAL: 50 days of development, 300+ lines of code, 4 main screens  
+
+==============================================  
+END OF MY PROJECT LOG
+==============================================
+
+P.S. If you do decide to create your own GUI app, go ahead and do it! It's hard, but it's totally worth it. Happy coding!
